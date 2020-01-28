@@ -1,0 +1,14 @@
+images:
+- context_dir: images/blocking-issue-creator/
+  from: os
+  to: blocking-issue-creator
+promotion:
+  namespace: ocp
+  name: 4.4
+resources:
+  '*':
+    limits:
+      memory: 10Gi
+    requests:
+      cpu: 100m
+      memory: 200Mi
