@@ -1,3 +1,13 @@
+base_images:
+  os:
+    namespace: ocp
+    name: "4.4"
+    tag: base
+build_root:
+  image_stream_tag:
+    name: release
+    namespace: openshift
+    tag: golang-1.13
 images:
 - context_dir: images/blocking-issue-creator/
   from: os
