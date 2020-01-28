@@ -4,4 +4,6 @@ function commits
     git add -A
     git commit -m "Commit $i"
   end
+  git push origin master
 end
+
