@@ -7,3 +7,5 @@ function commits
   git push origin master
 end
 
+set -gx RELEASE $HOME/Projects/RH/go/src/github.com/openshift/release
+
